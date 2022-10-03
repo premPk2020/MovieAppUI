@@ -23,7 +23,7 @@ import com.example.movieappui.navigation.MovieScreens
 @Composable
 fun HomeScreen(navController: NavController) {
     Scaffold(topBar = {
-        TopAppBar(backgroundColor = Color.Magenta) {
+        TopAppBar(backgroundColor = Color.Magenta, elevation = 5.dp) {
             Text(text = "Movies")
         }
     }) {
